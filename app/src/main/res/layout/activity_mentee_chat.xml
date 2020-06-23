@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.genzcreations.shakthi.challenge.MenteeChatActivity">
+
+    <TextView
+        android:id="@+id/textViewChatRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Mentee Chat Room"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <EditText
+        android:id="@+id/MenteeTypeMsg"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/MenteeSend"
+        android:layout_marginStart="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Mentee: Type here" />
+
+    <TextView
+        android:id="@+id/MenteeViewMsg"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+
+        android:layout_above="@+id/MenteeTypeMsg"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="97dp"
+        android:text="View Message" />
+
+    <Button
+        android:id="@+id/MenteeSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/textViewChatRoom"
+        android:text="Send" />
+</RelativeLayout>

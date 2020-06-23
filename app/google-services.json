@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323025992302",
+    "firebase_url": "https://challenge-a4daf.firebaseio.com",
+    "project_id": "challenge-a4daf",
+    "storage_bucket": "challenge-a4daf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323025992302:android:fd0d4c509686329479047f",
+        "android_client_info": {
+          "package_name": "com.genzcreations.shakthi.challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323025992302-u1kq8j8ei2d3ohveo5inme8pu6df4ham.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.genzcreations.shakthi.challenge",
+            "certificate_hash": "f9940d0c0ead168e8fae75e6fb2a85fc037fa9c4"
+          }
+        },
+        {
+          "client_id": "323025992302-hkukk3vvjfcoie38jq81fcd5hsb75lp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUer4uBAaPDAkgblft9m6Ozk0MRS0uusQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323025992302-hkukk3vvjfcoie38jq81fcd5hsb75lp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
